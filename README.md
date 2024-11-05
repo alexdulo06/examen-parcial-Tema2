@@ -1,42 +1,22 @@
 # examen-parcial-Tema2
 https://github.com/alexdulo06/examen-parcial-Tema2.git
 
-Examen de Programación en C++
-Estimado estudiante,
+##Ejercicio 1: Identificación de Número Positivo, Negativo o Cero
+**Descripción**: Este ejercicio analiza un conjunto de números predefinidos para determinar si cada uno es positivo, negativo o cero, e imprime el resultado correspondiente.
+**Archivo**: src/ejercicio1.cpp
 
-Para asegurar una evaluación justa de tus habilidades en programación en C++, sigue estas instrucciones al entregar tus respuestas.
+##Ejercicio 2: Día de la Semana
+**Descripción**: Este ejercicio toma una lista de números predefinidos (del 1 al 7, más un número fuera de rango) y, para cada número, imprime el día de la semana correspondiente (por ejemplo, 1 para lunes, 2 para martes, etc.). Si el número está fuera del rango, imprime un mensaje de error.
+Archivo: src/ejercicio2.cpp
 
-Instrucciones de Entrega
-Repositorio en GitHub:
+##Ejercicio 3: Cálculo de Promedio de Calificaciones
+**Descripción**: En este ejercicio, se evalúan ocho calificaciones predefinidas y se calcula el promedio de estas calificaciones, imprimiendo tanto cada calificación individual como el promedio final.
+**Archivo**: src/ejercicio3.cpp
 
-Crea un repositorio privado en GitHub para este examen y compártelo solo después de la revisión si así lo deseas.
-Fichero ZIP:
+##Ejercicio 4: Promoción de "3 por 2" en Tienda
+**Descripción**: Este ejercicio simula una promoción en una tienda donde el cliente ingresa tres precios, y solo se cobra por los dos artículos más caros. Se imprimen los precios de los artículos y el total a pagar bajo la promoción.
+Archivo: src/ejercicio4.cpp
 
-Al finalizar, descarga tu repositorio como un archivo ZIP con el nombre Apellido_Nombre_ExamenCPP.zip.
-Archivo README.md:
-
-Incluye un archivo README.md en el repositorio, que contenga:
-Un enlace directo al repositorio.
-Una breve descripción de cada ejercicio resuelto y el archivo donde se encuentra.
-Usa Markdown para estructurar tu README.
-Entrega:
-
-Sube el archivo ZIP a la plataforma indicada antes de la fecha límite.
-Aspectos Adicionales:
-
-Organiza y comenta tu código para que sea fácil de leer y entender.
-Si utilizas referencias externas, inclúyelas en el README.md.
-Parte 2: Problemas de Codificación (70 puntos en total)
-Ejercicio 1: Identificación de Número Positivo, Negativo o Cero
-Escribe un programa en C++ que solicite al usuario ingresar un número entero. El programa deberá analizar el número ingresado e imprimir en pantalla si el número es "positivo", "negativo" o "cero". 
-
-Ejercicio 2: Día de la Semana
-Crea un programa en C++ que solicite al usuario ingresar un número del 1 al 7. El programa deberá imprimir el nombre del día de la semana correspondiente al número ingresado (por ejemplo, 1 para lunes, 2 para martes, ..., 7 para domingo). 
-
-
-Ejercicio 3: Cálculo de Promedio de Calificaciones
-Un estudiante ha completado un curso de programación avanzada en C++. Durante el curso, ha realizado 8 ejercicios prácticos, y cada ejercicio se califica con una nota entre 0 y 10. Escribe un programa que solicite al usuario introducir las calificaciones obtenidas por el estudiante en cada uno de los 8 ejercicios. El programa deberá calcular y mostrar el promedio de las calificaciones. 
-
-Ejercicio 4: Promoción de "3 por 2" en Tienda
-En una tienda se está ofreciendo una promoción en la cual el cliente puede llevarse tres artículos y pagar solo por los dos artículos más caros. Escribe un programa en C++ que solicite al usuario ingresar los precios de tres artículos y, como resultado, muestre el total que el cliente debe pagar bajo esta promoción.
-
+##Archivo Principal
+**Descripción**: El archivo main.cpp es el punto de entrada del programa. Llama a cada uno de los ejercicios y organiza la salida para que el usuario pueda ver los resultados de forma clara y ordenada.
+**Archivo**: main.cpp
